@@ -1,0 +1,50 @@
+//Media query
+@media screen and (max-width: 880px) 
+{
+     main,.flex-container {
+       flex-direction: column;
+     }
+
+     #experiences {
+      border-right: none;
+  }
+}
+
+
+
+@media screen and (max-width: 750px) 
+{
+  header
+  {
+    flex-direction: column;
+  }
+
+  .logo-user
+  {
+    font-size:2.6em;
+    line-height: 1;
+    margin-bottom: .3em;
+    display:inline-block
+  }
+
+  .logo-yrke
+  {
+    font-size:2.4em;
+  }
+ 
+  .logo-portfolio
+  {
+    font-size:3.0em;
+    margin-bottom: 10px;
+    display:inline-block;
+  }
+
+  .flex-left, .flex-right, .contact
+  {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;;
+  }
+}
+
+

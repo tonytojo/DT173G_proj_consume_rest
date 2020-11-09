@@ -1,0 +1,15 @@
+//A template that is used for buttons,anchor, submit button
+%btn{
+   color: $link-color;
+   padding:5px;
+   cursor: pointer;
+   background-color:#fff;
+}
+
+a{
+  @extend %btn;
+}
+
+.webbsite a:hover{
+ color:#072357;
+}

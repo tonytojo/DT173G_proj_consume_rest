@@ -1,0 +1,89 @@
+//Some useful variables
+$body-bgcolor : #a5a5a5;
+$wrapper-bgcolor : #e0e0e0;
+$header-bgcolor :#2989d8ff;
+$link-color:#206aee;
+
+body{
+   font-family: "Open Sans",sans-serif;
+   background-color: $body-bgcolor;
+   background-image: url(../images/derivatadesktop.png);
+   box-sizing: border-box;
+}
+
+h2{
+   text-align: center;
+}
+
+.logo-image {
+   border: 3px solid #fff;
+   border-radius: 500px;
+}
+
+.logo-user{
+   font-size:3.2em;
+   line-height: 1.8;
+}
+
+.logo-yrke{
+   font-size:3em;
+}
+
+.logo-portfolio{
+   font-size: 3em;
+   display: inline-block;
+}
+
+header {
+   background-color: $header-bgcolor;
+   border: 1px solid #000;
+   background-image: url(../images/derivatadesktop.png);
+   display:flex;
+   align-items: center;
+}
+
+.center-text{
+   text-align: center;
+}
+
+.presentation,.knowledge,.contact,main{
+  line-height: 1.6;
+  font-size: 1.2em;
+}
+
+#experiences{
+   border-right: 1px solid #000;
+}
+
+.webbsite h3{
+   color: $link-color;
+}
+
+#education div
+{
+   padding-bottom: 6px;
+}
+
+.tooltip {
+   position: relative;
+   display: inline-block;
+}
+
+.tooltip .tooltiptext 
+{
+   visibility: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+   visibility: visible;
+ }
+
+ .tooltiptext {
+   width: 380px;
+   background-color: $body-bgcolor;;
+   color: #dfe5eb;
+   padding: 1em;
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+}

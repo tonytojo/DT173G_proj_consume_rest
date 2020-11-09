@@ -1,0 +1,58 @@
+//The wrapper is stretching from top to bottom
+//We center 1280px so we get space on each side
+
+.wrapper
+{
+   max-width: 1280px;
+   padding: 1em;
+   background-color:$wrapper-bgcolor;
+   margin-top: 2em;
+   margin:0 auto;
+}
+
+.flex-container
+{
+   display: flex;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #000;
+}
+
+.flex-left
+{
+   padding: 0 3em;
+   width:60%;
+}
+.flex-right
+{
+   padding: 0 3em;
+   width: 40%;
+}
+
+.left-side{
+   width:40%;
+}
+
+.right-side{
+   width:60%;
+} 
+
+main
+{
+   display:flex;
+   margin-bottom: 2.5em;
+}
+
+.webbsites
+{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap:wrap;
+}
+
+.webbsite
+{
+   border: 1px solid #373445;
+   padding: 1em;
+   width: 350px;
+   background-color: #fff;
+}
